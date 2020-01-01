@@ -1,0 +1,5 @@
+C:\Users\stwer1998\source\repos\TesterProject\TesterDb\bin\Debug\netcoreapp3.1\TesterDb.deps.json
+C:\Users\stwer1998\source\repos\TesterProject\TesterDb\bin\Debug\netcoreapp3.1\TesterDb.dll
+C:\Users\stwer1998\source\repos\TesterProject\TesterDb\obj\Debug\netcoreapp3.1\TesterDb.csprojAssemblyReference.cache
+C:\Users\stwer1998\source\repos\TesterProject\TesterDb\obj\Debug\netcoreapp3.1\TesterDb.AssemblyInfoInputs.cache
+C:\Users\stwer1998\source\repos\TesterProject\TesterDb\obj\Debug\netcoreapp3.1\TesterDb.AssemblyInfo.cs
