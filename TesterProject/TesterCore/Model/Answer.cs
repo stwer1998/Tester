@@ -1,6 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System.ComponentModel.DataAnnotations;
 
 namespace TesterCore.Model
 {
@@ -9,6 +8,7 @@ namespace TesterCore.Model
         /// <summary>
         /// Id ответа
         /// </summary>
+        [Key]
         public Guid AnswerId { get; set; }
         /// <summary>
         /// Id вопроса которому принадлежит ответ

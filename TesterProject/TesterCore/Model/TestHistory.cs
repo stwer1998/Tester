@@ -1,6 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System.ComponentModel.DataAnnotations;
 
 namespace TesterCore.Model
 {
@@ -9,6 +8,7 @@ namespace TesterCore.Model
         /// <summary>
         /// Id история теста
         /// </summary>
+        [Key]
         public Guid TestHistoryId { get; set; }
         /// <summary>
         /// Id пользователя который рещил тест

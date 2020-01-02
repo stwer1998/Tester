@@ -8,7 +8,7 @@ namespace TesterCore.Model
     public class User
     {
         /// <summary>
-        /// Iльзователя
+        /// Id пользователя
         /// </summary>
         [Key]
         public Guid UserId { get; set; }

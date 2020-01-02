@@ -28,5 +28,9 @@ namespace TesterCore.Model
         /// По какому предмету вопрос
         /// </summary>
         public Subject SubjectTest { get; set; }
+        /// <summary>
+        /// Тип теста
+        /// </summary>
+        public TestType TestType { get; set; }
     }
 }

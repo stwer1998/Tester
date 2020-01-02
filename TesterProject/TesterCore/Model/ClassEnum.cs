@@ -12,6 +12,14 @@ namespace TesterCore.Model
         Physisc
     }
 
+    public enum TestType 
+    {
+        PublicTest,
+        PrivateTest,
+        TestWhithPassword,
+        TestWhithPaiment
+    }
+
     public enum QuestionType 
     {
         QuestionWhithCloseAns,
