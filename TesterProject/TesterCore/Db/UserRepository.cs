@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using TesterCore.Model;
 
-namespace TesterDb
+namespace TesterCore
 {
     public class UserRepository
     {
@@ -31,7 +31,7 @@ namespace TesterDb
             else return user;
         }
 
-        public void EditUser(User user) 
+        public void EditUser(User user)
         {
             db.Users.Update(user);
             db.SaveChanges();
