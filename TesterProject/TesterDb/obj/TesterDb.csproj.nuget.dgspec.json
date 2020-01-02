@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\stwer1998\\source\\repos\\TesterProject\\TesterDb\\TesterDb.csproj": {}
+    "e:\\C#\\Tester\\TesterProject\\TesterDb\\TesterDb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\stwer1998\\source\\repos\\TesterProject\\TesterCore\\TesterCore.csproj": {
+    "e:\\C#\\Tester\\TesterProject\\TesterCore\\TesterCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\stwer1998\\source\\repos\\TesterProject\\TesterCore\\TesterCore.csproj",
+        "projectUniqueName": "e:\\C#\\Tester\\TesterProject\\TesterCore\\TesterCore.csproj",
         "projectName": "TesterCore",
-        "projectPath": "C:\\Users\\stwer1998\\source\\repos\\TesterProject\\TesterCore\\TesterCore.csproj",
+        "projectPath": "e:\\C#\\Tester\\TesterProject\\TesterCore\\TesterCore.csproj",
         "packagesPath": "C:\\Users\\stwer1998\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\stwer1998\\source\\repos\\TesterProject\\TesterCore\\obj\\",
+        "outputPath": "e:\\C#\\Tester\\TesterProject\\TesterCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Users\\stwer1998\\source\\repos\\TesterProject\\TesterDb\\TesterDb.csproj": {
+    "e:\\C#\\Tester\\TesterProject\\TesterDb\\TesterDb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\stwer1998\\source\\repos\\TesterProject\\TesterDb\\TesterDb.csproj",
+        "projectUniqueName": "e:\\C#\\Tester\\TesterProject\\TesterDb\\TesterDb.csproj",
         "projectName": "TesterDb",
-        "projectPath": "C:\\Users\\stwer1998\\source\\repos\\TesterProject\\TesterDb\\TesterDb.csproj",
+        "projectPath": "e:\\C#\\Tester\\TesterProject\\TesterDb\\TesterDb.csproj",
         "packagesPath": "C:\\Users\\stwer1998\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\stwer1998\\source\\repos\\TesterProject\\TesterDb\\obj\\",
+        "outputPath": "e:\\C#\\Tester\\TesterProject\\TesterDb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -85,8 +85,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\stwer1998\\source\\repos\\TesterProject\\TesterCore\\TesterCore.csproj": {
-                "projectPath": "C:\\Users\\stwer1998\\source\\repos\\TesterProject\\TesterCore\\TesterCore.csproj"
+              "e:\\C#\\Tester\\TesterProject\\TesterCore\\TesterCore.csproj": {
+                "projectPath": "e:\\C#\\Tester\\TesterProject\\TesterCore\\TesterCore.csproj"
               }
             }
           }
