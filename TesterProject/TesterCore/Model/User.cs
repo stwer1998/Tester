@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Text;
+using TesterCore.Dto;
 
 namespace TesterCore.Model
 {
@@ -20,5 +19,38 @@ namespace TesterCore.Model
         /// пароль пользователя
         /// </summary>
         public string Password { get; set; }
+        /// <summary>
+        /// Имя пользователя
+        /// </summary>
+        public string Name { get; set; }
+        /// <summary>
+        /// Фамилия пользователя
+        /// </summary>
+        public string Surname { get; set; }
+        /// <summary>
+        /// Дата регистрации
+        /// </summary>
+        public DateTime RegisterDate { get; set; }
+        /// <summary>
+        /// День рождение
+        /// </summary>
+        public DateTime Birthday { get; set; }
+
+        public User()
+        {
+
+        }
+
+        public User(DtoRegister dtoRegister)
+        {
+            UserId = new Guid();
+            Login = dtoRegister.Login;
+            Password = dtoRegister.Password;
+            Name = dtoRegister.Name;
+            Surname = dtoRegister.Surname;
+            RegisterDate = DateTime.Now;
+            Birthday = dtoRegister.Birthday;
+            
+        }
     }
 }

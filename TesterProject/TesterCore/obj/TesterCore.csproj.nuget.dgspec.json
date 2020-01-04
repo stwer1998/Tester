@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\C#\\Tester\\TesterProject\\TesterCore\\TesterCore.csproj": {}
+    "E:\\C#\\Tester\\TesterProject\\TesterCore\\TesterCore.csproj": {}
   },
   "projects": {
-    "e:\\C#\\Tester\\TesterProject\\TesterCore\\TesterCore.csproj": {
+    "E:\\C#\\Tester\\TesterProject\\TesterCore\\TesterCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\C#\\Tester\\TesterProject\\TesterCore\\TesterCore.csproj",
+        "projectUniqueName": "E:\\C#\\Tester\\TesterProject\\TesterCore\\TesterCore.csproj",
         "projectName": "TesterCore",
-        "projectPath": "e:\\C#\\Tester\\TesterProject\\TesterCore\\TesterCore.csproj",
+        "projectPath": "E:\\C#\\Tester\\TesterProject\\TesterCore\\TesterCore.csproj",
         "packagesPath": "C:\\Users\\stwer1998\\.nuget\\packages\\",
-        "outputPath": "e:\\C#\\Tester\\TesterProject\\TesterCore\\obj\\",
+        "outputPath": "E:\\C#\\Tester\\TesterProject\\TesterCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

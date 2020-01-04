@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewData["Title"] = "Login";
+}
+@model TesterCore.Dto.DtoUser
+
+<form asp-antiforgery="true" asp-action="Login" asp-controller="Account" style="margin-left:auto;margin-right:auto;width:10em;">
+    <div class="autorization-window" >
+        <h3>Вход</h3>
+        <div class="inner-autorization">
+            <div class="validation" asp-validation-summary="ModelOnly"></div>
+            <div>
+                <label asp-for="Login">Введите ваш логин</label><br />
+                <input type="text" asp-for="Login" /><br />
+                <span asp-validation-for="Login"></span>
+            </div>
+            <div>
+                <label asp-for="Password">Пароль</label><br />
+                <input asp-for="Password" type="password" /><br />
+                <span asp-validation-for="Password"></span>
+            </div>
+        </div>
+        <div><a asp-controller="Account" asp-action="Register">Зарегистрироваться</a></div>
+        <div>
+            <input type="submit" value="Вход" style="background-color:#4CAF50;border: none;color: white;padding: 10px 70px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;margin: 4px 2px;cursor: pointer;"/>
+        </div>
+    </div>
+    
+</form>
+@section scripts{
+    <environment names="Development">
+        <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    </environment>
+    <environment names="Staging,Production">
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"
+                asp-fallback-src="~/lib/jquery-validation/dist/jquery.validate.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.validator">
+        </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery.validation.unobtrusive/3.2.6/jquery.validate.unobtrusive.min.js"
+                asp-fallback-src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.validator && window.jQuery.validator.unobtrusive">
+        </script>
+    </environment>
+}

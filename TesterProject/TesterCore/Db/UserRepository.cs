@@ -1,9 +1,10 @@
 ﻿using System.Linq;
+using TesterCore.Interfaces;
 using TesterCore.Model;
 
 namespace TesterCore
 {
-    public class UserRepository
+    public class UserRepository: IUserRepository
     {
         private MyDbContext db;
         public UserRepository(MyDbContext db)
@@ -20,8 +21,8 @@ namespace TesterCore
         public bool CheckLogin(string login)
         {
             var user = db.Users.FirstOrDefault(x => x.Login == login);
-            if (user == null || user.Login != login) { return false; }
-            else return true;
+            if (user == null || user.Login != login) { return true; }
+            else return false;
         }
 
         public User GetUser(string login, string password)
