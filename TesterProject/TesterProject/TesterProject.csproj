@@ -15,6 +15,10 @@
     <ProjectReference Include="..\TesterCore\TesterCore.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\Test\" />
+  </ItemGroup>
+
 
 
 </Project>

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TesterCore.Model
 {
@@ -13,6 +14,7 @@ namespace TesterCore.Model
         /// <summary>
         /// Id теста которому принадлежит вопрос
         /// </summary>
+        [ForeignKey("OwnerTestId")]
         public Guid OwnerTestId { get; set; }
         /// <summary>
         /// Тип овопроса(откратый или закрытый)

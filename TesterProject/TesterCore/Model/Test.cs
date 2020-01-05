@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace TesterCore.Model
@@ -15,6 +16,7 @@ namespace TesterCore.Model
         /// <summary>
         /// Id пользователя которому принадлежит вопрос
         /// </summary>
+        [ForeignKey("OwnerID")]
         public Guid OwnerID { get; set; }
         /// <summary>
         /// Дата создание теста
@@ -32,5 +34,10 @@ namespace TesterCore.Model
         /// Тип теста
         /// </summary>
         public TestType TestType { get; set; }
+        /// <summary>
+        /// Пароль теста если есть
+        /// </summary>
+        public string Password { get; set; }
+
     }
 }
