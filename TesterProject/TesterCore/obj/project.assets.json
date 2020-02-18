@@ -638,11 +638,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "e:\\C#\\Tester\\TesterProject\\TesterCore\\TesterCore.csproj",
+      "projectUniqueName": "d:\\C#\\Tester\\TesterProject\\TesterCore\\TesterCore.csproj",
       "projectName": "TesterCore",
-      "projectPath": "e:\\C#\\Tester\\TesterProject\\TesterCore\\TesterCore.csproj",
+      "projectPath": "d:\\C#\\Tester\\TesterProject\\TesterCore\\TesterCore.csproj",
       "packagesPath": "C:\\Users\\stwer1998\\.nuget\\packages\\",
-      "outputPath": "e:\\C#\\Tester\\TesterProject\\TesterCore\\obj\\",
+      "outputPath": "d:\\C#\\Tester\\TesterProject\\TesterCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -692,7 +692,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

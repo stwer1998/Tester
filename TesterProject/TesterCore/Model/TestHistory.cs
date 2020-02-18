@@ -13,7 +13,12 @@ namespace TesterCore.Model
         /// <summary>
         /// Id пользователя который рещил тест
         /// </summary>
-        public Guid OwnerUserId { get; set; }
+        public Guid UserId { get; set; }
+        /// <summary>
+        /// пользователь родитель
+        /// </summary>
+        public User User { get; set; }
+
         /// <summary>
         /// Id теста который решен
         /// </summary>

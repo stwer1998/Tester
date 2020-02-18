@@ -17,6 +17,11 @@ namespace TesterCore.Model
         [ForeignKey("OwnerQuestionId")]
         public Guid OwnerQuestionId { get; set; }
         /// <summary>
+        /// Вопрос родитель
+        /// </summary>
+        public Question Question { get; set; }
+
+        /// <summary>
         /// Текст ответа
         /// </summary>
         public string AnswerVal { get; set; }

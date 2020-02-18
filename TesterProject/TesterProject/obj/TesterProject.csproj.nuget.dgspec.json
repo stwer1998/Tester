@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\C#\\Tester\\TesterProject\\TesterProject\\TesterProject.csproj": {}
+    "d:\\C#\\Tester\\TesterProject\\TesterProject\\TesterProject.csproj": {}
   },
   "projects": {
-    "E:\\C#\\Tester\\TesterProject\\TesterCore\\TesterCore.csproj": {
+    "d:\\C#\\Tester\\TesterProject\\TesterCore\\TesterCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#\\Tester\\TesterProject\\TesterCore\\TesterCore.csproj",
+        "projectUniqueName": "d:\\C#\\Tester\\TesterProject\\TesterCore\\TesterCore.csproj",
         "projectName": "TesterCore",
-        "projectPath": "E:\\C#\\Tester\\TesterProject\\TesterCore\\TesterCore.csproj",
+        "projectPath": "d:\\C#\\Tester\\TesterProject\\TesterCore\\TesterCore.csproj",
         "packagesPath": "C:\\Users\\stwer1998\\.nuget\\packages\\",
-        "outputPath": "E:\\C#\\Tester\\TesterProject\\TesterCore\\obj\\",
+        "outputPath": "d:\\C#\\Tester\\TesterProject\\TesterCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -61,18 +61,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\C#\\Tester\\TesterProject\\TesterProject\\TesterProject.csproj": {
+    "d:\\C#\\Tester\\TesterProject\\TesterProject\\TesterProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#\\Tester\\TesterProject\\TesterProject\\TesterProject.csproj",
+        "projectUniqueName": "d:\\C#\\Tester\\TesterProject\\TesterProject\\TesterProject.csproj",
         "projectName": "TesterProject",
-        "projectPath": "E:\\C#\\Tester\\TesterProject\\TesterProject\\TesterProject.csproj",
+        "projectPath": "d:\\C#\\Tester\\TesterProject\\TesterProject\\TesterProject.csproj",
         "packagesPath": "C:\\Users\\stwer1998\\.nuget\\packages\\",
-        "outputPath": "E:\\C#\\Tester\\TesterProject\\TesterProject\\obj\\",
+        "outputPath": "d:\\C#\\Tester\\TesterProject\\TesterProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -91,8 +91,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\C#\\Tester\\TesterProject\\TesterCore\\TesterCore.csproj": {
-                "projectPath": "E:\\C#\\Tester\\TesterProject\\TesterCore\\TesterCore.csproj"
+              "d:\\C#\\Tester\\TesterProject\\TesterCore\\TesterCore.csproj": {
+                "projectPath": "d:\\C#\\Tester\\TesterProject\\TesterCore\\TesterCore.csproj"
               }
             }
           }
@@ -141,7 +141,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Text;
 
 namespace TesterCore.Model
 {
@@ -19,13 +18,24 @@ namespace TesterCore.Model
         [ForeignKey("OwnerID")]
         public Guid OwnerID { get; set; }
         /// <summary>
-        /// Дата создание теста
+        /// Создатель
         /// </summary>
+        public User Owner { get; set; }
+
+        /// <summary>
+        /// Дата создание теста
+        /// </summary>      
         public DateTime CreateDate { get; set; }
         /// <summary>
         /// Описание теста
         /// </summary>
         public string Description { get; set; }
+                
+        /// <summary>
+        /// Пудличность теста
+        /// </summary>
+        public TestStatus Status { get; set; }
+
         /// <summary>
         /// По какому предмету вопрос
         /// </summary>
@@ -38,6 +48,10 @@ namespace TesterCore.Model
         /// Пароль теста если есть
         /// </summary>
         public string Password { get; set; }
+        /// <summary>
+        /// Вопросы теста
+        /// </summary>
+        public IEnumerable<Question> Questions { get; set; }
 
     }
 }

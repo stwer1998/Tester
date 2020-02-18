@@ -4,7 +4,10 @@ using System.Text;
 
 namespace TesterCore.Model
 {
-    public enum Subject 
+    /// <summary>
+    /// Предметняю область темта
+    /// </summary>
+    public enum Subject : byte
     {
         Other,
         Math,
@@ -12,15 +15,25 @@ namespace TesterCore.Model
         Physisc
     }
 
-    public enum TestType 
+    public enum TestStatus :byte
     {
-        PublicTest,
-        PrivateTest,
+        Public,
+        Private
+    }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    public enum TestType : byte
+    {
+        TestFree,
         TestWhithPassword,
         TestWhithPaiment
     }
-
-    public enum QuestionType 
+    /// <summary>
+    /// 
+    /// </summary>
+    public enum QuestionType : byte
     {
         QuestionWhithCloseAns,
         QuestionWhithOpenAns

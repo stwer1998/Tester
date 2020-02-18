@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -17,6 +18,11 @@ namespace TesterCore.Model
         [ForeignKey("OwnerTestId")]
         public Guid OwnerTestId { get; set; }
         /// <summary>
+        /// Тест которому пренадлежит вопрос
+        /// </summary>
+        public Test OwnerTest { get; set; }
+
+        /// <summary>
         /// Тип овопроса(откратый или закрытый)
         /// </summary>
         public QuestionType QuestionType { get; set; }
@@ -24,5 +30,9 @@ namespace TesterCore.Model
         /// Текст вопроса
         /// </summary>
         public string QuestionVal { get; set; }
+        /// <summary>
+        /// Ответы теста
+        /// </summary>
+        public IEnumerable<Answer> Answers { get; set; }
     }
 }
